@@ -29,7 +29,9 @@ Using this template
 
     $ python setup.py android
 
-6. Build and run your app using Gradle::
+6. Start the Android emulator or connect your Android device
+
+7. Build and run your app using Gradle::
 
    $ (cd android && ./gradlew run)
 
