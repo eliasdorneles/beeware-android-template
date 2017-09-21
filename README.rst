@@ -1,7 +1,10 @@
-Briefcase Bootstrap template
-============================
+BeeWare Android Template
+========================
 
-A template for starting a Python app that will be deployed using briefcase.
+A template for starting a native Android app using Python and the BeeWare tools.
+
+More specifically, it uses `VOC`_ for compiling Python into Java bytecode
+and `Briefcase`_ to package as an Android app.
 
 Using this template
 -------------------
@@ -13,7 +16,7 @@ Using this template
 
 2. Run ``cookiecutter`` on this template::
 
-    $ cookiecutter https://github.com/pybee/briefcase-template
+    $ cookiecutter https://github.com/eliasdorneles/beeware-android-template
 
 3. Add your code to the project.
 
@@ -22,14 +25,14 @@ Using this template
 
     $ pip install briefcase
 
-5. Use Briefcase to generate the artefacts for your platform of choice::
+5. Use Briefcase to generate the Android artifacts::
 
-    $ python setup.py ios
     $ python setup.py android
-    $ python setup.py macos
-    $ python setup.py windows
-    $ python setup.py linux
-    $ python setup.py django
 
-.. _cookiecutter: http://github.com/audreyr/cookiecutter
-.. _briefcase: http://github.com/pybee/briefcase
+6. Build and run your app using Gradle::
+
+   $ (cd android && ./gradlew run)
+
+.. _cookiecutter: https://github.com/audreyr/cookiecutter
+.. _briefcase: https://github.com/pybee/briefcase
+.. _VOC: https://github.com/pybee/voc
