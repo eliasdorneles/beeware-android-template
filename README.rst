@@ -35,6 +35,15 @@ Using this template
 
    $ (cd android && ./gradlew run)
 
+
+Example apps
+------------
+
+* `TicTacToe`_ (created before this template, but using the same building blocks)
+* `Drawing app`_ (created with this template)
+
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 .. _briefcase: https://github.com/pybee/briefcase
 .. _VOC: https://github.com/pybee/voc
+.. _TicTacToe: https://github.com/eliasdorneles/tictactoe-voc
+.. _Drawing app: https://github.com/eliasdorneles/drawingapp-voc
