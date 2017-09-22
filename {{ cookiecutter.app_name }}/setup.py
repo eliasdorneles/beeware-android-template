@@ -1,16 +1,11 @@
 #!/usr/bin/env python
-import io
 from setuptools import setup, find_packages
-
-with io.open('README.rst', encoding='utf8') as readme:
-    long_description = readme.read()
 
 
 setup(
     name='{{ cookiecutter.app_name }}',
     version='0.0.1',
     description='{{ cookiecutter.description }}',
-    long_description=long_description,
     author='{{ cookiecutter.author }}',
     author_email='{{ cookiecutter.author_email }}',
     license='{{ cookiecutter.license }}',
