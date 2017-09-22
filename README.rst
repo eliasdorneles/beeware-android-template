@@ -6,8 +6,12 @@ A template for starting a native Android app using Python and the BeeWare tools.
 More specifically, it uses `VOC`_ for compiling Python into Java bytecode
 and `Briefcase`_ to package as an Android app.
 
+**Requirements:** you need to have Python 3 and the `Android SDK`_ installed
+
 Using this template
 -------------------
+
+0. Create a virtualenv using Python 3 (3.5 recommended).
 
 1. Install `cookiecutter`_. This is a tool used to bootstrap complex project
    templates::
@@ -47,3 +51,4 @@ Example apps
 .. _VOC: https://github.com/pybee/voc
 .. _TicTacToe: https://github.com/eliasdorneles/tictactoe-voc
 .. _Drawing app: https://github.com/eliasdorneles/drawingapp-voc
+.. _Android SDK: https://developer.android.com/studio/index.html#downloads
