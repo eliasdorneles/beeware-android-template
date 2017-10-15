@@ -24,12 +24,12 @@ Using this template
 
 3. Add your code to the project.
 
-4. Install `Briefcase`_. This is the tool that will produce a version of your
+4. Install `Briefcase`_. This is a tool that produces a version of your
    project that can be deployed to specific platforms::
 
     $ pip install briefcase
 
-5. Use Briefcase to generate the Android artifacts::
+5. Generate the Android artifacts with::
 
     $ python setup.py android
 
@@ -38,6 +38,11 @@ Using this template
 7. Build and run your app using Gradle::
 
    $ (cd android && ./gradlew run)
+
+
+**Note:** optionally, you can generate the Android artifacts, build and run all
+in one step with: ``python setup.py android --start``. Use ``--build`` instead
+to only build the APK but not run it.
 
 
 Example apps
