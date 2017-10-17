@@ -15,5 +15,4 @@ Install the Python development requirements:
 
 Build and run the app:
 
-    python setup.py android
-    (cd android && ./gradlew run)
+    python setup.py android --start
